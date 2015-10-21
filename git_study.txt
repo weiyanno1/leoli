@@ -44,4 +44,11 @@ GIT 撤销记录
    总之，就是让文件恢复到最近一次的git commit或git add状态。
 2. 修改工作区，执行git add命令添加到暂存区(stage)，撤销
    git reset HEAD git_study.txt
+   git reset 即可以回退版本，也可以把暂存区的修改回退到工作区。
+   再执行命令 git checkout --filename,撤销工作区修改。
+3. git add执行完，git commit执行完，撤销
+   已经执行了git commit，将修改提交到了版本库，但还未推送到远程库
+   执行"版本回退"命令
+   
+
    
