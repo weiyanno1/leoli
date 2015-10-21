@@ -31,3 +31,5 @@ GIT 学习记录
    4. git commit ---暂存区文件提交到当前分支
    
    git diff HEAD filename   				 --查看工作区文件与版本库文件区别
+   
+   studytest
