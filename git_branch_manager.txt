@@ -27,3 +27,7 @@ GIT Branch Manager
 	
 	
 	Fast-forward 快进模式：直接将master分支指向当前分支
+	
+	
+	
+解决分支冲突方法
