@@ -31,3 +31,28 @@ GIT Branch Manager
 	
 	
 解决分支冲突
+	在分支feature1上修改文件，
+	git add filename
+	git commit -m "xxxx" 提交文件
+	
+	切换到master库
+	git checkout master
+	修改文件
+	git add filename
+	git commit -m "xxxxx" 提交文件
+
+	合并分支feature1到分支master
+	git merge feature1
+	
+	提示冲突 Automatic merge failed；fix conflicts and then commit the result
+	通过 git status 也能查看冲突
+	
+	修改文件filename
+	git add filename
+	git commit -m "xxxxxx"
+	
+	查看分支信息
+	git log --graph
+	git log --graph --pretty=oneline --abbrev-commit
+	
+	
