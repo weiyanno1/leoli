@@ -6,6 +6,6 @@
    
    git init
    git add filename
-   git commit -a "git comment info"
+   git commit -m "git comment info"
    
    git status
