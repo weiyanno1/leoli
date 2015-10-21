@@ -30,4 +30,4 @@ GIT Branch Manager
 	
 	
 	
-解决分支冲突方法
+解决分支冲突
