@@ -9,3 +9,5 @@
    git commit -m "git comment info"
    
    git status
+   
+   git diff filename
