@@ -35,7 +35,13 @@ GIT 学习记录
    git diff 和 git diff HEAD filename区别
    
 GIT 撤销记录
-1. 修改工作区，未添加到暂存区(stage)
+1. 修改工作区，未添加到暂存区(stage)，撤销
    git checkout --filename
-   git checkout filename
-2. 
+   --非常有必要，如果不写，则表示切换到工作区
+   有两种场景：
+   ① 修改了工作区文件，还没有git add，执行该命令后，工作区内容恢复到版本库状态；
+   ② 修改了工作区文件，已经git add，再次修改文件，执行该命令，则工作区内容恢复到git add后的状态；
+   总之，就是让文件恢复到最近一次的git commit或git add状态。
+2. 修改工作区，执行git add命令添加到暂存区(stage)，撤销
+   git reset HEAD git_study.txt
+   
