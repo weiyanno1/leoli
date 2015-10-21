@@ -4,12 +4,23 @@
 2. 递增（i++）、递减(i--)在多线程下是否是线程安全，如果不是，如何实现线程安全？
    windows和linux平台分别实现。
    
-   git init
-   git add filename
-   git commit -m "git comment info"
+   git init									--git初始化，生成.git文件
+   git add filename							--git提交文件到暂存区
+   git commit -m "git comment info"			--git提交文件到master
    
-   git status
+   git status								--git状态查询
    
-   git diff filename
+   git diff filename						--文件filename修改查询
    
-   test git version to old version
+   git reset --hard HEAD^					--HEAD 当前版本，^表示上个版本
+   git reset --hard HEAD^^
+   git reset --hard HEAD^^^
+   git reset --hard HEAD~100				--回退到当前版本前的100个版本
+   git reset --hard commit_id				--回到commit_id版本，这个更有效
+   
+   git log 									--根据log查看commit_id
+   git log --pretty =oneline
+   
+   git reflog								--记录操作命令，可查到commit_id
+   
+   
