@@ -1,0 +1,2 @@
+1. MySQL、ORACLE和OCI原始接口封装在Driver文件夹里面
+   具体路径为：E:\svn_root\datafeed\Adapter\SSDB\Driver
