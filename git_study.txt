@@ -32,4 +32,4 @@ GIT 学习记录
    
    git diff HEAD filename   				 --查看工作区文件与版本库文件区别
    
-   studytest
+   git diff 和 git diff HEAD filename区别
