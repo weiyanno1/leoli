@@ -33,3 +33,9 @@ GIT 学习记录
    git diff HEAD filename   				 --查看工作区文件与版本库文件区别
    
    git diff 和 git diff HEAD filename区别
+   
+GIT 撤销记录
+1. 修改工作区，未添加到暂存区(stage)
+   git checkout --filename
+   git checkout filename
+2. 
