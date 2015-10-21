@@ -19,6 +19,8 @@ GIT 学习记录
    
    git reflog								--记录操作命令，可查到commit_id
    
-   工作区，版本库
+   工作区，版本库，暂存区(stage)
    git add --把修改的文件添加到暂存区
    git commit --提交更改，把暂存区的所有内容提交到当前分支
+   
+   
