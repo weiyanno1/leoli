@@ -1,2 +1,11 @@
 1. MySQL、ORACLE和OCI原始接口封装在Driver文件夹里面
    具体路径为：E:\svn_root\datafeed\Adapter\SSDB\Driver
+   
+2. 递增（i++）、递减(i--)在多线程下是否是线程安全，如果不是，如何实现线程安全？
+   windows和linux平台分别实现。
+   
+   git init
+   git add filename
+   git commit -a "git comment info"
+   
+   git status
