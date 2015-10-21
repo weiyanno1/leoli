@@ -1,0 +1,22 @@
+GIT Branch Manager 
+
+概念：
+	每次提交时，Git都把他们串成一条时间线，这条时间线就是一个分支。
+
+作用：
+	在自己的分支上开发，不会影响其他人的开发进度
+	当在分支上开发功能完成，且测试稳定后，再一次性将代码全部合并到原来的分支上。
+	
+分支的创建于合并
+	Git中，默认的分支为主分支(master)，HEAD实际上是指向分支，不是指向提交，master指向提交。
+	
+	创建：git checkout -b dev    ---git checkout -b 相当于创建并切换分支
+	或
+	使用命令：
+	git branch dev
+	git checkout dev
+	
+	查看分支信息
+	命令：git branch
+	
+	
