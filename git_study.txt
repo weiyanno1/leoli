@@ -74,3 +74,8 @@ GIT 删除文件
    第一次执行 git push命令时，会有提示：The authenticity of host 'github.com (192.30.252.129)' can't be established.
    选择yes,将github服务器的key添加到本地信任列表中
    参数 -u 代表把本地master分支与远程master分支关联起来，在以后的推送或者拉取时可以简化命令。
+   
+从远程仓库克隆
+执行命令：git clone git@github.com:weiyanno1/test.git
+git clone github remote address
+github远端地址从github里面复制，默认使用ssh协议，也支持https协议
