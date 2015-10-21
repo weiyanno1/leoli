@@ -13,10 +13,17 @@ GIT Branch Manager
 	创建：git checkout -b dev    ---git checkout -b 相当于创建并切换分支
 	或
 	使用命令：
-	git branch dev
-	git checkout dev
+	git branch dev 								---创建分支
+	git checkout dev							---切换分支
 	
 	查看分支信息
 	命令：git branch
 	
+	合并某分支到当前分支
+	命令：git merge <name>
 	
+	删除分支：
+	命令：git branch -d <name>
+	
+	
+	Fast-forward 快进模式：直接将master分支指向当前分支
