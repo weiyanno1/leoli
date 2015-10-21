@@ -11,3 +11,5 @@
    git status
    
    git diff filename
+   
+   test git version to old version
